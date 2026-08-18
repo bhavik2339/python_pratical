@@ -1,0 +1,7 @@
+file=open("demo.txt","w")
+file.write("B M NAKUM\nPOLICE SUB INSPECTOR")
+file.close()
+file=open("demo.txt","r")
+r=file.read()
+print(r)
+file.close()
